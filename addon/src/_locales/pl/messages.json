@@ -1,6 +1,6 @@
 {
     "extensionDescription": {
-        "message": "Twórz, modyfikuj i szybko zmieniaj grupy zakładek. \nZainspirowane starym dodatkiem Tab Groups",
+        "message": "Twórz, modyfikuj i szybko zmieniaj grupy kart. \nZainspirowane starym dodatkiem Tab Groups",
         "description": "Description of the extension."
     },
     "openSettings": {
@@ -16,11 +16,11 @@
         "description": "Set tab icon as group icon"
     },
     "moveTabToGroupDisabledTitle": {
-        "message": "Przesuń zakładkę do grupy",
+        "message": "Przesuń kartę do grupy",
         "description": "Move tab to group title"
     },
     "moveTabToGroupMessage": {
-        "message": "Zakładka \"$tabtitle$\" została przeniesiona do grupy \"$grouptitle$\".\n\nKliknij tutaj, aby wyświetlić tę kartę.",
+        "message": "Karta \"$tabtitle$\" została przeniesiona do grupy \"$grouptitle$\".\n\nKliknij tutaj, aby wyświetlić tę kartę.",
         "description": "Tab moved popup title",
         "placeholders": {
             "grouptitle": {
@@ -58,7 +58,7 @@
         "description": "Cancel"
     },
     "searchPlaceholder": {
-        "message": "Wyszukaj zakładkę...",
+        "message": "Wyszukaj kartę...",
         "description": "Search placeholder"
     },
     "invalidRegExpRuleTitle": {
@@ -84,11 +84,11 @@
         "description": "Close popup after changing group"
     },
     "showNotificationAfterMoveTab": {
-        "message": "Pokaż powiadomienie kiedy zakładka zostanie przesunięta do innej grupy",
+        "message": "Pokaż powiadomienie kiedy karta zostanie przesunięta do innej grupy",
         "description": "Show notification when tab is moved to another group"
     },
     "openManageGroupsInTab": {
-        "message": "Otwórz \"Menadżer grup\" w nowej zakładce",
+        "message": "Otwórz \"Menadżer grup\" w nowej karcie",
         "description": "Open \"Manage Groups\" in new tab"
     },
     "showConfirmDialogBeforeGroupDelete": {
@@ -96,7 +96,7 @@
         "description": "Show confirm dialog before group delete"
     },
     "exportAddonSettingsTitle": {
-        "message": "Kopia zapasowa twoich zakładek",
+        "message": "Kopia zapasowa twoich kart",
         "description": "Backup your Simple Tab Groups"
     },
     "exportAddonSettingsDescription": {
@@ -112,7 +112,7 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Przywróć zakładki",
+        "message": "Przywróć karty",
         "description": "Restore Simple Tab Groups"
     },
     "importAddonSettingsDescription": {
@@ -124,7 +124,7 @@
         "description": "Restore backup"
     },
     "importSettingsOldTabGroupsAddonTitle": {
-        "message": "Przywróć grupy zakładek z dodatku Quicksaver-a",
+        "message": "Przywróć grupy kart z dodatku Quicksaver-a",
         "description": "Restore Quicksaver's \"Tab Groups\""
     },
     "importSettingsOldTabGroupsAddonDescription": {
@@ -214,11 +214,11 @@
         }
     },
     "deleteTab": {
-        "message": "Usuń zakładkę",
+        "message": "Usuń kartę",
         "description": "Delete tab"
     },
     "createNewTab": {
-        "message": "Otwórz nową zakładkę",
+        "message": "Otwórz nową kartę",
         "description": "Open new tab"
     },
     "createNewGroup": {
@@ -254,7 +254,7 @@
         "description": "Set random color"
     },
     "catchTabContainers": {
-        "message": "Złap i przenieś zakładki z zasobnikami do tej grupy",
+        "message": "Złap i przenieś karty z zasobnikami do tej grupy",
         "description": "Catch and move tabs with containers to this group"
     },
     "regexpForTabsTitle": {
@@ -346,7 +346,7 @@
         "description": "Open manage groups"
     },
     "hotkeyActionTitleMoveActiveTabToCustomGroup": {
-        "message": "Przenieś aktywną zakładkę do niestandardowej grupy.",
+        "message": "Przenieś aktywną kartę do niestandardowej grupy.",
         "description": "Move active tab to custom group"
     },
     "hotkeyActionTitleDiscardGroup": {
@@ -402,7 +402,7 @@
         "description": "Icon style"
     },
     "discardTabsAfterHide": {
-        "message": "Zamknij zakładki po ich ukryciu (to zmniejszy użycie pamięci RAM)",
+        "message": "Zamknij karty po ich ukryciu (to zmniejszy użycie pamięci RAM)",
         "description": "Discard tabs after hide (this will save the RAM)"
     },
     "notPossibleSwitchGroupBecauseSomeTabShareMicrophoneOrCamera": {
@@ -410,7 +410,7 @@
         "description": "It is not possible to change the group because one of the opened tabs share microphone or camera"
     },
     "foundHiddenUnSyncTabsDescription": {
-        "message": "Znaleziono ukryte niezsynchronizowane karty. Kliknij zakładkę, aby wyświetlić ją w bieżącej grupie / oknie lub:",
+        "message": "Znaleziono ukryte niezsynchronizowane karty. Kliknij kartę, aby wyświetlić ją w bieżącej grupie / oknie lub:",
         "description": "Found hidden unsynchronized tabs. Click on tab to show it into current group/window or:"
     },
     "actionHiddenUnSyncTabsMoveAllTabsToCurrentGroup": {
@@ -418,7 +418,7 @@
         "description": "Move all of these tabs into current group/window"
     },
     "actionHiddenUnSyncTabsCreateGroup": {
-        "message": "Utwórz nową grupę z tymi zakładkami",
+        "message": "Utwórz nową grupę z tymi kartami",
         "description": "Create new group with all of these tabs"
     },
     "actionHiddenUnSyncTabsCloseAll": {
@@ -426,7 +426,7 @@
         "description": "Close all of these tabs"
     },
     "updateTabThumbnail": {
-        "message": "Zaktualizuj miniaturę dla tej zakładki",
+        "message": "Zaktualizuj miniaturę dla tej karty",
         "description": "Update thumbnail for this tab"
     },
     "nowFoundWindowsAddonStoppedWorking": {
@@ -494,7 +494,7 @@
         }
     },
     "pinnedTabsAreNotSupported": {
-        "message": "Przypięte zakładki nie są wspierane",
+        "message": "Przypięte karty nie są wspierane",
         "description": "Pinned tabs are not supported"
     },
     "thisUrlsAreNotSupported": {
@@ -508,7 +508,7 @@
         }
     },
     "thisTabsCanNotBeHidden": {
-        "message": "Te zakładki nie mogą zostać ukryte ponieważ są przypięte, korzystają z mikrofonu lub kamery albo współdzielonego ekranu: $titles$",
+        "message": "Te karty nie mogą zostać ukryte ponieważ są przypięte, korzystają z mikrofonu lub kamery albo współdzielonego ekranu: $titles$",
         "description": "These tabs can not be hidden because they are pinned, using a microphone, camera or shared screen: \"$titles$\"",
         "placeholders": {
             "titles": {
@@ -518,7 +518,7 @@
         }
     },
     "moveMultipleTabsToGroupMessage": {
-        "message": "Przeniesionych zostało $tabscount$ zakładek. Kliknij tutaj aby przejść do pierwszej.",
+        "message": "Przeniesionych zostało $tabscount$ kart. Kliknij tutaj aby przejść do pierwszej.",
         "description": "$tabscount$ tabs has been moved.\nClick here to open the first tab",
         "placeholders": {
             "tabscount": {
@@ -604,7 +604,7 @@
         "description": "Open link in group title"
     },
     "showContextMenuOnTabs": {
-        "message": "Pokaż menu kontekstowe na zakładkach",
+        "message": "Pokaż menu kontekstowe na kartach",
         "description": "Show context menu on tabs"
     },
     "showContextMenuOnLinks": {
@@ -714,11 +714,11 @@
         "description": "Show notification after group delete"
     },
     "reloadTab": {
-        "message": "Przeładuj zakładkę",
+        "message": "Przeładuj kartę",
         "description": "Reload tab"
     },
     "thisTabIsNotSupported": {
-        "message": "Wybrana zakładka nie jest wspierana",
+        "message": "Wybrana karta nie jest wspierana",
         "description": "This tab is not supported"
     },
     "showExtendGroupsPopupWithActiveTabs": {
